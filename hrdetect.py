@@ -15,7 +15,7 @@ def PlotWaveform(title, ycords):
     plt.plot(time,ycords)  
     plt.show()
 
-#Function that plots the step graph for of the Momentary Heart Rate    
+#Function that plots the step graph for of the Momentary Heart Rate changes along time   
 def PlotWaveformStep(title, ycords):
     fs=1000
     plt.figure(figsize=(13.33,7.5))
